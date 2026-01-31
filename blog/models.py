@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.urls import reverse
+from cloudinary.models import CloudinaryField
 
 
 class Category(models.Model):
@@ -19,7 +20,8 @@ class Post(models.Model):
     category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True, blank=True)
     content = models.TextField()
 
-    featured_image = models.ImageField(upload_to='posts/', null=True, blank=True)
+    #featured_image = models.ImageField(upload_to='posts/', null=True, blank=True)
+    featured_image = CloudinaryField('image', null=True, blank=True)
     published = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
