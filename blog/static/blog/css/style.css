@@ -1,0 +1,43 @@
+body {
+  background-color: #f8f9fa;
+}
+.card {
+  border-radius: 12px;
+}
+.card img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 300px;
+  object-fit: cover;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+body {
+    background-image: url("../images/background2.jpg"); /* path example */
+    background-size: cover;       /* makes image cover entire page */
+    background-repeat: no-repeat; /* prevents tiling */
+    background-attachment: fixed; /* keeps background fixed on scroll */
+    background-position: center;  /* centers the image */
+    background-color: #f8f9fa;    /* fallback color */
+}
+
+.latest-heading {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+    text-shadow: 0 4px 10px rgba(0,0,0,0.7);
+    margin-bottom: 2rem;
+}
+
+
+
+
+.latest-heading:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
