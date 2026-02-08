@@ -8,19 +8,30 @@ Users can view, create, and manage sports-related posts, with image uploads and 
 🚀 Features
 
 ✅ User authentication (register, login, logout)
+
 ✅ Create, update, and delete blog posts
+
 ✅ Upload and display post images
+
 ✅ Responsive layout using Bootstrap
+
 ✅ Database powered by MySQL
+
 ✅ Organized templates with base inheritance
+
 ✅ SEO-friendly URLs and clean UI
 
 🧰 Tech Stack
 Layer	Technology
+
 Backend	Django (Python Framework)
+
 Frontend	HTML, CSS, Bootstrap
+
 Database	MySQL
+
 Version Control	Git & GitHub
+
 Deployment - Render 
 
 🏁 Future Enhancements
